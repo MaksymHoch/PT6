@@ -1,0 +1,113 @@
+/* Основні стилі для контейнерів та заголовків */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+header {
+  display: flex;
+  unicode-bidi: isolate;
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://image.ibb.co/gzOBup/showcase.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.hc {
+  height: 350px;
+  width: 300px;
+  max-width: 600px;
+  margin-bottom: 10rem;
+}
+
+.logo1 {
+  height: 180px;
+  width: 180px;
+}
+
+/* Селектор для контейнера з логотипами */
+.logo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  background-color: #000000;
+}
+
+/* Селектор для окремого елемента з логотипом */
+.logo-item {
+  text-align: center;
+  max-width: 250px;
+}
+
+/* Селектор для логотипів */
+.logo {
+  width: 60px;
+  height: 48px;
+  margin-bottom: 10px;
+}
+
+/* Селектор для підписів */
+h3 {
+  margin: 10px 0 5px 0;
+  font-size: 18px;
+}
+
+/* Селектор для тексту під заголовком */
+p {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/* Стилі для секції з логотипом та текстом */
+.sec {
+  display: flex; /* Використання Flexbox */
+  flex-direction: row;
+  align-items: center; /* Вирівнювання по вертикалі */
+  justify-content: center; /* Логотип і текст починаються зліва */
+  padding: 20px;
+  background-color: #f4f4f4; /* Світлий фон для секції */
+  color: #000000; /* Чорний текст */
+}
+
+.sec img {
+  width: 200px; /* Ширина логотипу */
+  height: 160px; /* Висота логотипу */
+  margin-right: 150px; /* Відступ праворуч від логотипу */
+}
+
+.text-content {
+  /* text-align: center;  */
+  max-width: 300px; /* Максимальна ширина тексту */
+  width: 100%; /* Займає всю доступну ширину */
+  /* flex-direction: row; */
+}
+
+h4 {
+  margin: 0;
+}
+
+.colortext {
+  color: #000000; /* Чорний текст */
+  /* text-align: center;  */
+}
+
+footer {
+  text-align: center;
+  color: #000000;
+  background-color: #676767;
+  padding: 20px;
+  margin-top: 20px;
+}
